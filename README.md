@@ -33,3 +33,14 @@
 - mplfinance
 
 ## 📁 项目结构
+1.主程序是：transformer_crypto_trading.py
+  1)训练某个标的命令如下：
+  python3 transformer_crypto_trading.py BTCUSDT 3 train
+  2)实盘交易命令如下：
+  python3 transformer_crypto_trading.py all 1 real
+2.基础数据工程：common_eng.py，主要是各样指标的加工和计算
+3.行情数据抓取工程：data_eng.py
+4.特征加工工程：features_eng.py
+5.交易工程：deal_eng.py
+6.交易标的配置文件：products--transformer.txt
+
